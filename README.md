@@ -1,14 +1,14 @@
-# Andromeda.vim
+# Andromeda.nvim
 
 [![license tag](https://img.shields.io/badge/license-MIT-green)](https://img.shields.io/badge/license-MIT-green)
 [![version](https://img.shields.io/badge/version-v0.1.1-blueviolet)](https://img.shields.io/badge/version-v0.1.1-blueviolet)
 
-A vim theme inspired by [Andromeda](https://github.com/EliverLara/Andromeda) theme.
+A fork of [andromeda.vim](https://github.com/safv12/andromeda.vim) adapted for neovim.
 
-Andromeda.vim theme supports graphical Vim and console Vim.
+Andromeda.nvim theme supports graphical Vim and console Vim.
 
 <p align="center">
-    <img align="center" width="80%" height="80%" src="img/andromeda.png">
+    <img align="center" width="80%" src="img/andromeda.png">
 </p>
 
 ## Installation
@@ -16,10 +16,8 @@ You can use your preferred Vim Package Manager to install Andromeda theme.
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug).
 
-To install andromeda.vim using [vim-plug](https://github.com/junegunn/vim-plug) you copy the next plug configuration in you `.vimrc` file and run the `:PlugInstall` command.
-
 ```vim
-Plug 'safv12/andromeda.vim'
+Plug 'WhiteBlackGoose/andromeda.nvim'
 ```
 
 ### Usage
@@ -36,4 +34,6 @@ This is an in-progress theme. If you have any problem feel free to open an issue
 
 ## Licensing
 
-Andromeda.vim is licensed under the [MIT License](./LICENSE.txt).
+The original license of andromeda.vim kept. To view WhiteBlackGoose's modifications, just run a diff.
+
+Andromeda.nvim is licensed under the [MIT License](./LICENSE.txt).

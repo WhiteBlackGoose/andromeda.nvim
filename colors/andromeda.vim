@@ -3,6 +3,8 @@
 " maintainer: https://github.com/safv12
 " License: The MIT License (MIT)
 
+" Modified by WhiteBlackGoose for neovim
+
 set background=dark
 highlight clear
 
@@ -110,6 +112,7 @@ call s:SetHighlight('BufferOffset', '', s:black, '')
 """ Diff
 call s:SetHighlight('DiffAdd', s:green, '#000', '')
 call s:SetHighlight('DiffChange', s:yellow, '#000', '')
+call s:SetHighlight('DiffDelete', s:red, '#000', '')
 """ End of diff
 
 
