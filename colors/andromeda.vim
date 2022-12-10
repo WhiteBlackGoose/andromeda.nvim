@@ -100,6 +100,7 @@ call s:SetHighlight('BufferInactiveMod', '', s:black, '')
 call s:SetHighlight('BufferTabpages', '', s:black, '')
 call s:SetHighlight('BufferDefaultTabpages', '', s:black, '')
 call s:SetHighlight('BufferDefaultInactiveIcon', '', s:black, '')
+call s:SetHighlight('BufferDefaultOffset', '', s:black, '')
 """
 
 """ Diff
