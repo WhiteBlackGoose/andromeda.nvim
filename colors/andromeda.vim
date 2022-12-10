@@ -88,10 +88,18 @@ call s:SetHighlight('FoldColumn', '', '#000', '')
 call s:SetHighlight('SignColumn', '', '#000', '')
 """ End of columns
 
-""" Bar
-call s:SetHighlight('BufferDefaultTabpageFill', '', s:black, '')
-call s:SetHighlight('BufferDefaultInactiveSign', '', s:black, '')
+""" Bar (sorted as they're in :hi)
 call s:SetHighlight('BufferInactive', '', s:black, '')
+call s:SetHighlight('BufferDefaultInactive', '', s:black, '')
+call s:SetHighlight('BufferTabpageFill', '', s:black, '')
+call s:SetHighlight('BufferDefaultTabpageFill', '', s:black, '')
+call s:SetHighlight('BufferDefaultInactiveMod', '', s:black, '')
+call s:SetHighlight('BufferDefaultInactiveSign', '', s:black, '')
+call s:SetHighlight('BufferDefaultInactiveIndex', '', s:black, '')
+call s:SetHighlight('BufferInactiveMod', '', s:black, '')
+call s:SetHighlight('BufferTabpages', '', s:black, '')
+call s:SetHighlight('BufferDefaultTabpages', '', s:black, '')
+call s:SetHighlight('BufferDefaultInactiveIcon', '', s:black, '')
 """
 
 """ Diff
