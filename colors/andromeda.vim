@@ -48,16 +48,13 @@ let s:orange = ['#f39c12', 214]
 """ Vim editor
 call s:SetHighlight('Boolean', s:red, '', '')
 call s:SetHighlight('Conditional', s:purple, '', '')
-" call s:SetHighlight('Cursor', s:bg, s:white, '')
 call s:SetHighlight('CursorColumn', '', s:bg, '')
 call s:SetHighlight('CursorLine', '', s:black, '')
 call s:SetHighlight('Directory', s:comments, s:bg, '')
-" call s:SetHighlight('DiffAdd', s:comments, s:bg, '')
 call s:SetHighlight('EndOfBuffer', '', '', '')
 call s:SetHighlight('ErrorMsg', s:red, s:bg, 'underline')
 call s:SetHighlight('Float', s:red, '', '')
 call s:SetHighlight('Folded', s:bg, s:comments, '')
-call s:SetHighlight('FoldColumn', '', '#000', '')
 call s:SetHighlight('Keyword', s:purple, '', '')
 call s:SetHighlight('Label', s:green, '', '')
 call s:SetHighlight('LineNr', s:comments, s:bg, '')
@@ -71,7 +68,6 @@ call s:SetHighlight('PmenuSel', s:bg, s:yellow, '')
 call s:SetHighlight('PmenuSbar', '', s:invisibles, '')
 call s:SetHighlight('PmenuThumb', '', s:comments, '')
 call s:SetHighlight('Search', s:bg, s:orange, '')
-call s:SetHighlight('SignColumn', '', '#000', '')
 call s:SetHighlight('SpecialComment', s:comments, '', '')
 call s:SetHighlight('SpecialKey', s:invisibles, s:bg, '')
 call s:SetHighlight('StatusLine', s:red, s:comments, '')
@@ -86,6 +82,17 @@ call s:SetHighlight('Title', s:red, '', '')
 call s:SetHighlight('VertSplit', s:black, s:black, '')
 call s:SetHighlight('Visual', '', s:invisibles, '')
 """ End of vim editor
+
+""" Columns
+call s:SetHighlight('FoldColumn', '', '#000', '')
+call s:SetHighlight('SignColumn', '', '#000', '')
+""" End of columns
+
+""" Diff
+call s:SetHighlight('DiffAdd', s:green, '', '')
+call s:SetHighlight('DiffChange', s:yellow, '', '')
+""" End of diff
+
 
 """ Syntax
 call s:SetHighlight('Comment', s:comments, '', '')
@@ -125,3 +132,4 @@ call s:SetHighlight('jsParenIfElse', s:cyan, '', '')
 call s:SetHighlight('jsVariableDef', s:cyan, '', '')
 """ End of Javascript
 
+"""
