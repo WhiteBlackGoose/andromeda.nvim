@@ -48,7 +48,7 @@ let s:orange = ['#f39c12', 214]
 """ Vim editor
 call s:SetHighlight('Boolean', s:red, '', '')
 call s:SetHighlight('Conditional', s:purple, '', '')
-call s:SetHighlight('Cursor', s:bg, s:white, '')
+" call s:SetHighlight('Cursor', s:bg, s:white, '')
 call s:SetHighlight('CursorColumn', '', s:bg, '')
 " call s:SetHighlight('CursorLine', s:white, s:black, '')
 call s:SetHighlight('Directory', s:comments, s:bg, '')
