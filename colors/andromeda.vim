@@ -7,7 +7,7 @@ set background=dark
 highlight clear
 
 
-f exists("syntax_on")
+if exists("syntax_on")
   syntax reset
 endif
 
@@ -48,9 +48,9 @@ let s:orange = ['#f39c12', 214]
 """ Vim editor
 call s:SetHighlight('Boolean', s:red, '', '')
 call s:SetHighlight('Conditional', s:purple, '', '')
-""" call s:SetHighlight('Cursor', s:bg, s:white, '')
+call s:SetHighlight('Cursor', s:bg, s:white, '')
 call s:SetHighlight('CursorColumn', '', s:bg, '')
-""" call s:SetHighlight('CursorLine', s:white, s:black, '')
+call s:SetHighlight('CursorLine', s:white, s:black, '')
 call s:SetHighlight('Directory', s:comments, s:bg, '')
 call s:SetHighlight('EndOfBuffer', '', '', '')
 call s:SetHighlight('ErrorMsg', s:red, s:bg, 'underline')
