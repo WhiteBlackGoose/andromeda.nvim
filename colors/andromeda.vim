@@ -88,6 +88,12 @@ call s:SetHighlight('FoldColumn', '', '#000', '')
 call s:SetHighlight('SignColumn', '', '#000', '')
 """ End of columns
 
+""" Bar
+call s:SetHighlight('BufferDefaultTabpageFill', '', s:black, '')
+call s:SetHighlight('BufferDefaultInactiveSign', '', s:black, '')
+call s:SetHighlight('BufferInactive', '', s:black, '')
+"""
+
 """ Diff
 call s:SetHighlight('DiffAdd', s:green, '#000', '')
 call s:SetHighlight('DiffChange', s:yellow, '#000', '')
