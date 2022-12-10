@@ -6,7 +6,8 @@
 set background=dark
 highlight clear
 
-if exists("syntax_on")
+
+f exists("syntax_on")
   syntax reset
 endif
 
@@ -47,9 +48,9 @@ let s:orange = ['#f39c12', 214]
 """ Vim editor
 call s:SetHighlight('Boolean', s:red, '', '')
 call s:SetHighlight('Conditional', s:purple, '', '')
-call s:SetHighlight('Cursor', s:bg, s:white, '')
+" call s:SetHighlight('Cursor', s:bg, s:white, '')
 call s:SetHighlight('CursorColumn', '', s:bg, '')
-call s:SetHighlight('CursorLine', s:white, s:black, '')
+" call s:SetHighlight('CursorLine', s:white, s:black, '')
 call s:SetHighlight('Directory', s:comments, s:bg, '')
 call s:SetHighlight('EndOfBuffer', '', '', '')
 call s:SetHighlight('ErrorMsg', s:red, s:bg, 'underline')
@@ -121,7 +122,3 @@ call s:SetHighlight('jsParenIfElse', s:cyan, '', '')
 call s:SetHighlight('jsVariableDef', s:cyan, '', '')
 """ End of Javascript
 
-""" ALE
-call s:SetHighlight('ALEError', s:red, '', 'underline')
-call s:SetHighlight('ALEWarning', s:orange, '', 'underline')
-""" End of ALE
