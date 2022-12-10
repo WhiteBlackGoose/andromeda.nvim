@@ -89,8 +89,8 @@ call s:SetHighlight('SignColumn', '', '#000', '')
 """ End of columns
 
 """ Diff
-call s:SetHighlight('DiffAdd', s:green, '', '')
-call s:SetHighlight('DiffChange', s:yellow, '', '')
+call s:SetHighlight('DiffAdd', s:green, '#000', '')
+call s:SetHighlight('DiffChange', s:yellow, '#000', '')
 """ End of diff
 
 
