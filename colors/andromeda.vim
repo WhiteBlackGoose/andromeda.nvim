@@ -152,6 +152,8 @@ call s:SetHighlight('Error', s:red, s:bg, 'underline')
 
 """ Other syntax
 call s:SetHighlight('@constructor', s:yellow, '', '')
+call s:SetHighlight('@method', s:yellow, '', '')
+call s:SetHighlight('@function', s:yellow, '', '')
 """
 
 """ Javascript
