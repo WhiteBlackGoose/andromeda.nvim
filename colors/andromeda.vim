@@ -130,11 +130,7 @@ call s:SetHighlight('NvimTreeNormal', '', s:black, '')
 """ Syntax
 call s:SetHighlight('Comment', s:comments, '', '')
 call s:SetHighlight('Todo', s:comments, '', '')
-call s:SetHighlight('Constant', s:yellow, '', '')
 call s:SetHighlight('String', s:green, '', '')
-call s:SetHighlight('Identifier', s:cyan, '', '')
-call s:SetHighlight('Type', s:yellow, '', '')
-call s:SetHighlight('Function', s:yellow, '', '')
 call s:SetHighlight('Statement', s:purple, '', '')
 call s:SetHighlight('Operator', s:purple, '', '')
 call s:SetHighlight('WarningMsg', s:orange, '', '')
@@ -150,7 +146,18 @@ call s:SetHighlight('Underlined', '', '', '')
 call s:SetHighlight('Error', s:red, s:bg, 'underline')
 """ End of Syntax
 
-""" Other syntax
+""" Identifiers
+call s:SetHighlight('Constant', s:yellow, '', '')
+call s:SetHighlight('Identifier', s:cyan, '', '')
+"""
+
+""" Types
+call s:SetHighlight('Type', s:yellow, '', '')
+"""
+
+""" Functions
+call s:SetHighlight('Function', s:yellow, '', '')
+call s:SetHighlight('Method', s:yellow, '', '')
 call s:SetHighlight('@constructor', s:yellow, '', '')
 call s:SetHighlight('@method', s:yellow, '', '')
 call s:SetHighlight('@function', s:yellow, '', '')
