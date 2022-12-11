@@ -93,7 +93,7 @@ call s:SetHighlight('SignColumn', '', '#000', '')
 """ Search
 call s:SetHighlight('Search', s:bg, s:orange, '')
 call s:SetHighlight('IncSearch', s:bg, s:orange, '')
-call s:SetHighlight('CurSearch', s:bg, s:cyan, '')
+call s:SetHighlight('CurSearch', s:bg, s:green, '')
 """
 
 """ Bar (sorted as they're in :hi)
