@@ -86,9 +86,6 @@ call s:SetHighlight('VertSplit', s:black, s:black, '')
 call s:SetHighlight('Visual', '', s:invisibles, '')
 """ End of vim editor
 
-"""
-call s:SetHighlight('@constructor', s:yellow, '', '')
-"""
 
 """ Columns
 call s:SetHighlight('FoldColumn', '', '#000', '')
@@ -153,6 +150,9 @@ call s:SetHighlight('Underlined', '', '', '')
 call s:SetHighlight('Error', s:red, s:bg, 'underline')
 """ End of Syntax
 
+""" Other syntax
+call s:SetHighlight('@constructor', s:yellow, '', '')
+"""
 
 """ Javascript
 call s:SetHighlight('jsArrowFuncArgs', s:cyan, '', '')
