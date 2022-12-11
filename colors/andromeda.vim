@@ -39,6 +39,7 @@ let s:comments = ['#5f6167', 241]
 let s:white = ['#ffffff', 15]
 let s:invisibles = ['#333844', 237]
 let s:black = ['#1b1d23', 234]
+let s:light_bg = ['#333740', 234]
 let s:cyan = ['#00e8c6', 44 ]
 let s:red = ['#ee5d43', 203]
 let s:green = ['#96e072', 113]
@@ -56,7 +57,7 @@ call s:SetHighlight('Directory', s:comments, s:bg, '')
 call s:SetHighlight('EndOfBuffer', '', '', '')
 call s:SetHighlight('ErrorMsg', s:red, s:bg, 'underline')
 call s:SetHighlight('Float', s:red, '', '')
-call s:SetHighlight('Folded', s:bg, s:black, '')
+call s:SetHighlight('Folded', '', s:light_bg, '')
 call s:SetHighlight('Keyword', s:purple, '', '')
 call s:SetHighlight('Label', s:green, '', '')
 call s:SetHighlight('LineNr', s:comments, s:bg, '')
@@ -91,14 +92,6 @@ call s:SetHighlight('SignColumn', '', '#000', '')
 """ End of columns
 
 """ Bar (sorted as they're in :hi)
-" call s:SetHighlight('BufferDefaultInactive', '', s:black, '')
-" call s:SetHighlight('BufferDefaultTabpageFill', '', s:black, '')
-" call s:SetHighlight('BufferDefaultInactiveMod', '', s:black, '')
-" call s:SetHighlight('BufferDefaultInactiveSign', '', s:black, '')
-" call s:SetHighlight('BufferDefaultInactiveIndex', '', s:black, '')
-" call s:SetHighlight('BufferDefaultTabpages', '', s:black, '')
-" call s:SetHighlight('BufferDefaultInactiveIcon', '', s:black, '')
-" call s:SetHighlight('BufferDefaultOffset', '', s:black, '')
 call s:SetHighlight('BufferInactive', '', s:black, '')
 call s:SetHighlight('BufferTabpageFill', '', s:black, '')
 call s:SetHighlight('BufferInactiveMod', '', s:black, '')
