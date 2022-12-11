@@ -86,6 +86,10 @@ call s:SetHighlight('VertSplit', s:black, s:black, '')
 call s:SetHighlight('Visual', '', s:invisibles, '')
 """ End of vim editor
 
+"""
+call s:SetHighlight('@constructor', s:yellow, '', '')
+"""
+
 """ Columns
 call s:SetHighlight('FoldColumn', '', '#000', '')
 call s:SetHighlight('SignColumn', '', '#000', '')
@@ -132,7 +136,7 @@ call s:SetHighlight('Todo', s:comments, '', '')
 call s:SetHighlight('Constant', s:yellow, '', '')
 call s:SetHighlight('String', s:green, '', '')
 call s:SetHighlight('Identifier', s:cyan, '', '')
-call s:SetHighlight('Type', s:red, '', '')
+call s:SetHighlight('Type', s:yellow, '', '')
 call s:SetHighlight('Function', s:yellow, '', '')
 call s:SetHighlight('Statement', s:purple, '', '')
 call s:SetHighlight('Operator', s:purple, '', '')
