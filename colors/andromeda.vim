@@ -40,6 +40,7 @@ let s:white = ['#ffffff', 15]
 let s:invisibles = ['#333844', 237]
 let s:black = ['#1b1d23', 234]
 let s:light_bg = ['#333740', 234]
+let s:dark_bg = ['#1e202d', 234]
 let s:cyan = ['#00e8c6', 44 ]
 let s:red = ['#ee5d43', 203]
 let s:green = ['#96e072', 113]
@@ -55,7 +56,7 @@ call s:SetHighlight('CursorColumn', '', s:bg, '')
 call s:SetHighlight('CursorLine', '', s:black, '')
 call s:SetHighlight('Directory', s:comments, s:bg, '')
 call s:SetHighlight('EndOfBuffer', '', '', '')
-call s:SetHighlight('ErrorMsg', s:red, s:bg, 'underline')
+call s:SetHighlight('ErrorMsg', s:red, '', 'underline')
 call s:SetHighlight('Float', s:red, '', '')
 call s:SetHighlight('Folded', '', s:light_bg, '')
 call s:SetHighlight('Keyword', s:purple, '', '')
@@ -112,6 +113,10 @@ call s:SetHighlight('DiffAdd', s:green, '#000', '')
 call s:SetHighlight('DiffChange', s:yellow, '#000', '')
 call s:SetHighlight('DiffDelete', s:red, '#000', '')
 """ End of diff
+
+""" NvimTree
+call s:SetHighlight('NvimTreeNormal', '', s:dark_bg, '')
+"""
 
 
 """ Syntax
