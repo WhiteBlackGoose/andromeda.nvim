@@ -154,7 +154,7 @@ call s:SetHighlight('@constant.builtin', s:yellow, '', '')
 """
 
 """ Types
-call s:SetHighlight('Type', s:yellow, '', '')
+call s:SetHighlight('Type', s:cyan, '', '')
 """
 
 """ Functions
