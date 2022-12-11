@@ -54,7 +54,6 @@ call s:SetHighlight('Boolean', s:red, '', '')
 call s:SetHighlight('Conditional', s:purple, '', '')
 call s:SetHighlight('CursorColumn', '', s:bg, '')
 call s:SetHighlight('CursorLine', '', s:black, '')
-call s:SetHighlight('Directory', s:comments, s:bg, '')
 call s:SetHighlight('EndOfBuffer', '', '', '')
 call s:SetHighlight('ErrorMsg', s:red, '', 'underline')
 call s:SetHighlight('Float', s:red, '', '')
@@ -115,7 +114,9 @@ call s:SetHighlight('DiffDelete', s:red, '#000', '')
 """ End of diff
 
 """ NvimTree
+call s:SetHighlight('Directory', s:comments, '', '')
 call s:SetHighlight('NvimTreeNormal', '', s:dark_bg, '')
+call s:SetHighlight('NvimTreeVertSplit', s:dark_bg, s:dark_bg, '')
 """
 
 
