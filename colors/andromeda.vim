@@ -118,7 +118,7 @@ call s:SetHighlight('DiffText', '#000', s:dark_green, '')
 """ NvimTree
 call s:SetHighlight('Directory', s:comments, '#000', '')
 call s:SetHighlight('NvimTreeNormal', '', s:black, '')
-call s:SetHighlight('NvimTreeVertSplit', s:black, s:black, '')
+call s:SetHighlight('NvimTreeVertSplit', s:black, s:bg, '')
 """
 
 
