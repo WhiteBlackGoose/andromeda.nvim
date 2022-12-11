@@ -149,6 +149,8 @@ call s:SetHighlight('Error', s:red, s:bg, 'underline')
 """ Identifiers
 call s:SetHighlight('Constant', s:yellow, '', '')
 call s:SetHighlight('Identifier', s:cyan, '', '')
+call s:SetHighlight('@variable', s:yellow, '', '')
+call s:SetHighlight('@constant.builtin', s:yellow, '', '')
 """
 
 """ Types
