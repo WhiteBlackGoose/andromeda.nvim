@@ -111,7 +111,7 @@ call s:SetHighlight('BufferOffset', '', s:black, '')
 call s:SetHighlight('DiffAdd', s:green, '#000', '')
 call s:SetHighlight('DiffChange', s:yellow, '#000', '')
 call s:SetHighlight('DiffDelete', s:red, '#000', '')
-call s:SetHighlight('DiffText', '#000', s:light_bg, '')
+call s:SetHighlight('DiffText', '#000', s:green, '')
 """ End of diff
 
 """ NvimTree
