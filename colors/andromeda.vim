@@ -114,7 +114,7 @@ call s:SetHighlight('DiffDelete', s:red, '#000', '')
 """ End of diff
 
 """ NvimTree
-call s:SetHighlight('Directory', s:comments, '', '')
+call s:SetHighlight('Directory', s:comments, '#000', '')
 call s:SetHighlight('NvimTreeNormal', '', s:dark_bg, '')
 call s:SetHighlight('NvimTreeVertSplit', s:dark_bg, s:dark_bg, '')
 """
