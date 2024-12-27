@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Use this instead: [nvim-andromeda](https://github.com/nobbmaestro/nvim-andromeda)
+
 # Andromeda.nvim
 
 [![license tag](https://img.shields.io/badge/license-MIT-green)](https://img.shields.io/badge/license-MIT-green)
